@@ -3,25 +3,23 @@ package TheFlower;
 import java.util.ArrayList;
 
 public class Flower {
-    public String name;
-    public String size;
     public String color;
 }
 
 public class Rose extends Flower{
-
+    public String size;
 }
 
 public class Chamomile extends Flower{
-
+    public String name;
 }
 
 public class Aster extends Flower{
-
+    public String smell;
 }
 
 public class Tulip extends Flower{
-
+    public String growTime;
 }
 
 public class Bouquet{
